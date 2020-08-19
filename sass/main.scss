@@ -219,4 +219,15 @@ hr {
   cursor: default;
 }
 
+.clockify-button-active,
+.clockify-button-inactive {
+  position: relative;
+  left: -30px;
+}
+
+.work-package--single-view .clockify-button-active,
+.work-package--single-view .clockify-button-inactive {
+  left: 0;
+}
+
 @import "dark-mode";

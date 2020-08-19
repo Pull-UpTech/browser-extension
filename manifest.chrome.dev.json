@@ -1,7 +1,7 @@
 {
   "manifest_version" : 2,
-  "name": "Clockify Time Tracker",
-  "short_name": "Clockify",
+  "name": "Clockify Time Tracker - Pull Up",
+  "short_name": "Clockify Mod",
   "description": "Track time from anywhere on the web and improve productivity.",
   "background": {
     "scripts": [
@@ -23,7 +23,7 @@
   "version": "1.8.30",
   "browser_action": {
     "default_popup": "index.html",
-    "default_title": "Clockify"
+    "default_title": "Clockify Mod"
   },
   "content_scripts": [
     {
